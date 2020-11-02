@@ -1,0 +1,7 @@
+<h2>Two way binding</h2>
+<div [style.backgroundColor]="color">Color</div>
+
+<input [(ngModel)]="color" type="text" class="form-control" />
+<p>contenu de la propriété color est {{ color }}</p>
+
+<!-- affectée automatiquement le contenue de ma variable {{color}} et la methode color -->
